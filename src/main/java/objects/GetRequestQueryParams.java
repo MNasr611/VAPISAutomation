@@ -5,7 +5,7 @@ import io.cucumber.datatable.DataTable;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TestGetQueryParams {
+public class GetRequestQueryParams {
     public static Map<String, String> queryParams;
 
 

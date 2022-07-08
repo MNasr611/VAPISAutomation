@@ -4,8 +4,6 @@ import lombok.Getter;
 
 
 public enum Endpoints {
-    TESTPOST("/post"),
-    TESTGET("/get"),
     GETUSERS("/users"),
     POSTS("/posts");
 

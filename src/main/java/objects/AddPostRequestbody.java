@@ -4,7 +4,6 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import helpers.CleanObject;
 import io.cucumber.datatable.DataTable;
 import models.request.AddPostRequestModel;
-import models.request.TestPostRequestModel;
 
 import java.util.HashMap;
 import java.util.Map;
