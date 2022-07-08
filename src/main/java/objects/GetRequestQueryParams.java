@@ -9,7 +9,6 @@ public class GetRequestQueryParams {
     public static Map<String, String> queryParams;
 
 
-
     public static Map<String, String> getQueryParams() {
         return queryParams;
     }
@@ -21,6 +20,7 @@ public class GetRequestQueryParams {
             queryParams.put((String) data.get("queryParamKey"), (String) data.get("queryParamValue"));
         }
     }
+
 
     public static void createQueryPayload(String key, String value) {
         queryParams = new HashMap<String, String>();
