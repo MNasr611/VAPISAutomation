@@ -16,7 +16,6 @@ import utils.AddPostsUtils;
 import utils.GetPostsUtils;
 import utils.GetUsersUtils;
 
-import javax.ejb.ObjectNotFoundException;
 
 public class UsersAndPostStepDef {
     GetUsersResponseModel[] getUsersResponseModel;

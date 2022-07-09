@@ -22,7 +22,6 @@ Feature: Get Users And Add Posts
     When   Get Users
     And    Create QueryParam "userId" For Get Request
     And    Get Posts For The User
-#    And    Validate That The PostId Is Integer Between 1 and 100
     And    Create Payload For Post Request
       | payLoadKey | payLoadValue       |
       | title      | APIs Automation    |
